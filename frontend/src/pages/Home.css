@@ -1,0 +1,105 @@
+.home-content {
+  text-align: center;
+  background: url('../images/fon.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh; /* Ensures the section covers the entire viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* Text color on top of the background */
+}
+
+/* Style for the header */
+.home-content header {
+  margin: -170px auto 20px;
+  background-color: rgba(145, 184, 168, 0.7); /* Transparent black background color */
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Styles for the h3 and h6 headings */
+.home-content h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.home-content h4 {
+  font-size: 20px;
+  max-width: 430px;
+  margin: 0 auto;
+}
+
+/* Styles for the "Get Started" button */
+.home-content button {
+  background-color: #46cf4d; /* Green button color */
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0 5px 15px 0 rgba(47, 59, 54, 0.822);
+}
+
+.home-content button:hover {
+  background-color: #48eb50; /* Darker green on hover */
+  transform: scale(1.1);
+    transition-duration: 0.7s;
+    color: black;
+    box-shadow: 0 5px 15px 0 rgb(240, 252, 247);
+}
+
+/* Styles for the dialog overlay */
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure the dialog appears on top of other content */
+}
+
+/* Styles for the dialog itself */
+.dialog {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+
+/* Style for the close button */
+.close-dialog {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #555;
+}
+
+/* Style for the role buttons in the dialog */
+.role-button {
+  background-color: #53be57; /* Green button color */
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.role-button:hover {
+  background-color: #17741c; /* Darker green on hover */
+}

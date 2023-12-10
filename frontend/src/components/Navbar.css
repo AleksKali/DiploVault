@@ -1,0 +1,16 @@
+.navbar-h1 {
+    box-shadow: 0 5px 15px 0 whitesmoke;
+    border-radius: 17px;
+    max-width: 400px;
+    margin: auto;
+    height: 70px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    align-self: center;
+  }
+
+  .NavbarItems{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
